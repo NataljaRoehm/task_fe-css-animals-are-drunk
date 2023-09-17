@@ -1,4 +1,46 @@
 img {
-  height: 400px;
+ max-width: 100%;
+  height: auto;
+}
 
+.headline {
+  text-align: center;
+  font-size: 24px;
+  color: blue;
+  margin: 20px 0;
+}
+
+.subheader {
+  text-align: center;
+  font-style: italic;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.intro {
+  text-align: justify;
+  font-size: 18px;
+  margin: 10px;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+.main-text {
+  text-align: justify;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.bald-idea {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+  margin: 10px;
+}
+
+#idea3 {
+  background-color: rgb(247, 247, 138);
+  padding: 10px;
 }
